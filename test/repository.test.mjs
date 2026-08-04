@@ -11,3 +11,11 @@ test('runs with the official demo script and documents the installation flow', a
   assert.match(readme, /https:\/\/console\.trtc\.io\/knocket-installation/);
   assert.match(readme, /Replace the demo script/i);
 });
+
+test('provides a complete platform-specific README', async () => {
+  const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
+  for (const section of ['What this example shows', 'Good fit for', 'Installation', 'How it works', 'Troubleshooting', 'Security notes', 'Other Knocket integrations']) {
+    assert.match(readme, new RegExp(`## ${section}`));
+  }
+  assert.ok(readme.split(/\s+/).length >= 450);
+});
