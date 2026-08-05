@@ -95,6 +95,7 @@ Make sure you edited the source template that your host actually deploys, then r
 - [Hugo](https://github.com/rrivory/knocket-hugo-live-chat)
 - [Webflow](https://github.com/rrivory/knocket-webflow-live-chat)
 - [Framer](https://github.com/rrivory/knocket-framer-live-chat)
+- [Browser package (`knocket-browser`)](https://github.com/rrivory/knocket-browser) — shared SDK loader for bundled JavaScript projects.
 
 ## License
 
