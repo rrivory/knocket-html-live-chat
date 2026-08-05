@@ -91,6 +91,9 @@ Make sure you edited the source template that your host actually deploys, then r
 
 - [Next.js](https://github.com/rrivory/knocket-nextjs-live-chat)
 - [React + Vite](https://github.com/rrivory/knocket-react-live-chat)
+- [Vue + Vite](https://github.com/rrivory/knocket-vue-live-chat)
+- [Svelte + Vite](https://github.com/rrivory/knocket-svelte-live-chat)
+- [Remix](https://github.com/rrivory/knocket-remix-live-chat)
 - [Astro](https://github.com/rrivory/knocket-astro-live-chat)
 - [Hugo](https://github.com/rrivory/knocket-hugo-live-chat)
 - [Webflow](https://github.com/rrivory/knocket-webflow-live-chat)
